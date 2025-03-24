@@ -1,0 +1,5 @@
+String[] parts = line.split(", ");
+String[] ageSexSpecies = parts[0].split(" ");
+int age = Integer.parseInt(ageSexSpecies[0]);
+String sex = ageSexSpecies[3];
+String species = ageSexSpecies[4];
